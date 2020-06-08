@@ -1,0 +1,24 @@
+Dear Listener,
+
+Welcome to ###EMAIL-LONGTITLE### recorded on the ###NICE-DATE###.  Please follow the links below to listen.
+
+To listen on the website as a single MP3 file, use this permanent link: ###PERMALINK###
+
+To listen as a playlist where you can change track please use whichever of these links is appropriate for the software you are using. If you don't know which you need then the first one is most likely to work on most systems.  If you need further information about which type of link is appropriate please refer to the Help section of your media player or the <a href="https://wtn.org.uk/listen-online/">listen on-line page on our website</a>.
+
+M3U - https://media.attn.org.uk/email/playlists/###LCASE-TYPE###/###NUMBER###.m3u
+M3U8 - https://media.attn.org.uk/email/playlists/###LCASE-TYPE###/###NUMBER###.m3u8
+PLS - https://media.attn.org.uk/email/playlists/###LCASE-TYPE###/###NUMBER###.pls
+ASX - https://media.attn.org.uk/email/playlists/###LCASE-TYPE###/###NUMBER###.asx
+WPL - https://media.attn.org.uk/email/playlists/###LCASE-TYPE###/###NUMBER###.wpl
+RAM - https://media.attn.org.uk/email/playlists/###LCASE-TYPE###/###NUMBER###.ram
+
+Please note that playlist links are valid only for approximately 6 weeks.
+
+We hope you enjoy listening, if you have any feedback please contact us at feedback@wtn.org.uk by replying to this email.
+
+Thank you,
+Any Town Talking News
+
+You can find out more about listening on-line or details of how to subscribe to our podcast on the listen on-line page on our website (https://attn.org.uk/listen-online/).
+

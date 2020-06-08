@@ -1,0 +1,61 @@
+/* 
+	A couple styles to make the demo page look good
+ */
+body {
+	padding-bottom: 2rem;
+	padding-top: 4rem;
+        background-color:   #eee090;
+}
+.row {
+	margin-bottom: 1rem;
+}
+[class*="col-"] {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+hr {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+#files {
+    overflow-y: scroll !important;
+    min-height: 320px;
+}
+@media (min-width: 768px) {
+	#files {
+		min-height: 0;
+	}
+}
+#debug {
+	overflow-y: scroll !important;
+	height: 180px;	
+}
+
+.dm-uploader {
+	border: 0.25rem dashed #A5A5C7;
+	text-align: center;
+        background-color:   #FFFFFF;
+}
+.dm-uploader.active {
+	border-color: #00008B;
+	border-style: solid;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #00008B !important;
+    border-color: #00008B !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #00008B;
+}
+
+a {
+    color:              #00008b;
+    text-decoration:    none;
+}
+
+a:hover {
+    color:              #00008b;
+    text-decoration:    underline;
+}

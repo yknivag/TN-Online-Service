@@ -1,0 +1,21 @@
+<IfModule headers_module>
+  header set X-Clacks-Overhead "GNU Terry Pratchett"
+</IfModule>
+
+RewriteEngine On
+RewriteBase /
+
+### Rules to Redirect all playlists requests to playlist.php ###
+RewriteCond %{REQUEST_URI} !-f
+RewriteCond %{REQUEST_URI} !-d
+RewriteCond %{REQUEST_URI} !-l
+#playlists/<edition|magazine>/<reference>.<ext>
+#playlists/<$1>/<$2>.<$3>
+#Eg: https://media.attn.org.uk/web/playlists/edition/latest.pls will refer as https://media.wtn.org.uk/playlist.php?source=web&type=edition&ref=latest&format=pls
+RewriteRule (.+)\/playlists\/(.+)\/(.+)\.(.+)?$ playlist.php?source=$1&type=$2&ref=$3&format=$4 [L]
+
+
+#links/<edition|magazine>/<reference>.<ext>
+#links/<$1>/<$2>.<$3>
+#Eg: https://media.attn.org.uk/web/links/edition/latest.mp3 will refer as https://media.wtn.org.uk/recentlinks.php?source=web&type=edition&ref=latest&format=mp3
+RewriteRule (.+)\/links\/(.+)\/(.+)\.(.+)?$ recentlinks.php?source=$1&type=$2&ref=$3&format=$4 [L]
